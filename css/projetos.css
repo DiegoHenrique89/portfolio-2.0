@@ -1,0 +1,60 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin: 15px;
+    padding: 5px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+.container h1{
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+.container img{
+    width: 430px;
+    margin: 20px 15px 0px 0px;
+    padding: 20px;
+}
+.container h2{
+    margin-top: -25px;
+   
+}
+.container a{
+    text-decoration: none;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 8%;
+    color: black;
+    background-color: blueviolet;
+    width: 100px;
+    padding: 10px;
+    transition: 0.7s;
+}
+.container a:hover{
+    color: white;
+    background-color: black;
+}
+.proj{
+    border: 1px solid ;
+    height: 420px;
+    margin: 10px;
+}.proj p{
+    margin: 15px;
+    padding: 10px;
+}

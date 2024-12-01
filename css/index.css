@@ -1,0 +1,46 @@
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+}
+.menu a{
+    gap: 5px;
+    margin: 15px;
+    color: black;
+    cursor: pointer;
+    font-weight: 800;
+}
+.menu a{
+    text-decoration: none;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    background-color:;
+}
+.img{
+    position: absolute;
+    left: 100px;
+    
+}
+.img img{
+    width: 500px;
+    border-radius: 50%;
+    border: 1px solid;
+    align-items: center;
+    background-color: crimson;
+    padding: 30px;
+}
+.text{
+    text-align: justify;
+    width: 700px;
+    margin: 0 auto;
+   position: absolute;
+   left: 38%;
+}
