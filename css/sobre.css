@@ -55,3 +55,31 @@
     background-color: cornflowerblue;
    
 }
+@media (max-width: 460px){
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container h1{
+        text-align: center;
+        background-color: brown;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .info{
+        width: 95%;
+        padding: 0 auto;
+    }
+    .info li{
+        font-size: 15px;
+    }
+    .forma{
+        width: 95%;
+    }
+    .forma li{
+        font-size: auto;
+        flex-direction: column;
+    }
+}

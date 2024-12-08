@@ -58,3 +58,21 @@
     margin: 15px;
     padding: 10px;
 }
+@media(max-width: 460px){
+    .container{
+        width: 50%;
+        margin: 0 auto;
+        padding: 15%;
+        position: relative;
+        top: -55px;
+    }
+    .container img{
+        width: 350px;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .container h1{
+        text-align: center;
+        width: 300%;
+    }
+}
