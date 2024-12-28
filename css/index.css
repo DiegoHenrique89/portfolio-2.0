@@ -38,6 +38,7 @@
     align-items: center;
     background-color: crimson;
     padding: 30px;
+    object-fit: cover;
 }
 .text{
     text-align: justify;
@@ -84,3 +85,6 @@
     }
 
 }    
+@media(max-width: 1900px){
+    
+} 
